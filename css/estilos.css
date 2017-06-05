@@ -1,0 +1,58 @@
+.fondo{
+  background: url(../image/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+.logo{
+  width: 27%;
+  height: 27%;
+  margin-top: 2%;
+}
+
+.eslogan{
+  text-align: center;
+}
+.icono1-row,.icono2-row,.icono3-row,.icono4-row,.icono5-row{
+  padding-left: 15%;
+}
+
+.iconors{
+  width: 44%;
+  height: 44%;
+  margin-top: 41%;
+  margin-left: 15%;
+}
+
+.paisaje{
+  width: 80%;
+  height: 80;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.comentario{
+  width: 60%;
+  height: 60%;
+}
+
+.usuario-row{
+  padding-top: 7%;
+  padding-left: 30%;
+}
+
+.usuario{
+  width: 50%;
+  height: 50%;
+}
+
+.perfil-row{
+  text-align: center;
+}
+
+.textoperfil-row{
+  text-align: center;
+}

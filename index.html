@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Blog de turismo</title>
+  </head>
+
+  <body>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/matterialize.min.js"></script>
+    <div class="s12 m12 l12 col fondo">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="image/logo.jpg" alt="ShareUrCode" class="logo"/></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Top 10</a></li>
+            <li><a href="">Recomendaciones</a></li>
+            <li><a href="">Otras paginas</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Top 10</a></li>
+            <li><a href="">Recomendaciones</a></li>
+            <li><a href="">Otras paginas</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row fila2-row">
+        <div class="s10 m11 l10 offset-l1 offset-s1 col blue-grey lighten-5">
+          <h5 class="eslogan">Si tiene tiempo libre utilizalo viajando</h5>
+        </div>
+      </div>
+
+      <div class="row fila3-row" >
+        <div class="s1 m1 l1 offset-m1 offset-l1 col blue-grey colum1 hide-on-small-only hide-on-medium-only  ">
+          <div class="row icono1-row">
+            <img class="iconors" src="image/fb.png" alt="">
+          </div>
+          <div class="row icono2-row">
+            <img class="iconors" src="image/ig.png" alt="">
+          </div>
+          <div class="row icono3-row">
+            <img class="iconors"  src="image/tt.png" alt="">
+          </div>
+          <div class="row icono4-row">
+            <img class="iconors"  src="image/yt.png" alt="">
+          </div>
+          <div class="row icono5-row">
+            <img class="iconors"  src="image/ss.png" alt="">
+          </div>
+        </div>
+
+        <div class="s10 m8 l8 offset-s1 offset-m1 offset-l1 col blue-grey lighten-5 colum2">
+          <div class="s12 m4 l4 col blue-grey lighten-5 colum3">
+            <div class="row">
+              <img class="paisaje" src="image/imagen1.jpg" alt="">
+            </div>
+            <div class="row">
+              <img class="paisaje" src="image/imagen2.jpg" alt="">
+            </div>
+          </div>
+          <div class="s12 m4 l4 col blue-grey lighten-5 colum3">
+            <img class="paisaje" src="image/imagen3.jpg" alt="">
+          </div>
+          <div class="s12 m4 l4 col blue-grey lighten-5 colum3">
+            <div class="row">
+              <img class="paisaje" src="image/imagen4.jpg" alt="">
+            </div>
+            <div class="row">
+              <img class="paisaje" src="image/imagen5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fila4-row">
+
+        <div class="s10 m7 l7 offset-s1 offset-m1 offset-l1 col blue-grey lighten-5 colum4">
+          <div class="row">
+            <h4>ROMA, la mejor ciudad</h4>
+            <h5>16/07/2016,Roma</h3>
+          </div>
+          <div class="row">
+            <div class="s12 m4 l4 col">
+              <img class="comentario" src="image/comentario.jpg" alt="">
+            </div>
+            <div class="s12 m8 l8 col">
+              <p>Roma es una ciudad y capital italiana, de 2 872 082 habitantes,capital de la Ciudad metropolitana de Roma Capital, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea.Por antonomasia se la conoce como la Ciudad Eterna, l'Urbe (‘la Ciudad’) o Città Eterna.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <p>Es la ciudad con la más alta concentración de bienes históricos y arquitectónicos del mundo;su centro histórico delimitado por el perímetro que marcan las murallas aurelianas, superposición de huellas de tres milenios, es la expresión del patrimonio histórico, artístico y cultural del mundo occidental europeo.6 En 1980, junto a las propiedades extraterritoriales de la Santa Sede que se encuentran en la ciudad y la Basílica de San Pablo Extramuros, fue incluida en la lista del Patrimonio de la Humanidad de la Unesco.</p>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input id="nombre" type="text" class="validate">
+              <label for="nombre">Nombre y apellido</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="mail" data-success="coorecto" data-error="debes completar este campo">email</label>
+            </div>
+
+            <div class="input-field col s12 m12 l12">
+              <textarea id="texto" class="materialize-textarea"></textarea>
+              <label for="texto">Comentario</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="file-field input-field col s12">
+              <div class="btn red lighten-1">
+                Agregar
+                <input type="file">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h4>PARIS, la ciudad para enamorarse</h4>
+            <h5>16/07/2016,Paris</h3>
+          </div>
+          <div class="row">
+            <div class="s12 m4 l4 col">
+              <img class="comentario" src="image/paris.jpg" alt="">
+            </div>
+            <div class="s12 m8 l8 col">
+              <p>París (en francés Paris, pronunciado Acerca de este sonido [paʁi] (?·i)) es la capital de Francia y su ciudad más poblada. Capital de la región de Isla de Francia (o "Región Parisina"), es constituida en la única comuna unidepartamental del país. Está situada a ambos márgenes de un largo meandro del río Sena, en el centro de la Cuenca parisina, entre la confluencia del río Marne y el Sena, aguas arriba, y el Oise y el Sena, aguas abajo.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <p>La ciudad de París, dentro de sus estrechos límites administrativos, tiene una población de 2 273 305 habitantes en 2015.2 Sin embargo, en el siglo XX, el área metropolitana de París se expandió más allá de los límites del municipio de París, y es hoy en día, con una población de 12 405 426 habitantes en 2013, la segunda área metropolitana del continente europeo (después de Londres) y la 28ª del mundo.</p>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input id="nombre" type="text" class="validate">
+              <label for="nombre">Nombre y apellido</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="mail" data-success="coorecto" data-error="debes completar este campo">email</label>
+            </div>
+
+            <div class="input-field col s12 m12 l12">
+              <textarea id="texto" class="materialize-textarea"></textarea>
+              <label for="texto">Comentario</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="file-field input-field col s12">
+              <div class="btn red lighten-1">
+                Agregar
+                <input type="file">
+              </div>
+            </div>
+          </div>
+         </div>
+
+        <div class="s10 m2 l2 offset-s1 offset-m1 offset-l1  col blue-grey lighten-5 colum4">
+          <div class="row usuario-row">
+            <img src="image/usuario.jpg" alt="" class="circle responsive-img usuario">
+          </div>
+          <div class="row perfil-row">
+            <h3>Perfil de autor</h3>
+          </div>
+          <div class="row textoperfil-row">
+            <p>Amante de los viajes a bajor costo por las ciudades mas bellas del mundo.Me gusta la lectura y los deportes extremos.Tambien los juegos de video</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
